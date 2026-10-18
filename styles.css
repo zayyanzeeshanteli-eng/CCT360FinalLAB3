@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #e8f1f5;
+    color: #1f2933;
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #163f50;
+}
+
+#story-heading {
+    width: 70%;
+    margin: 25px auto 35px auto;
+    padding: 15px;
+    background-color: #cfe5ee;
+    border: 3px solid #4f8094;
+}
+
+#story-title {
+    font-size: 26px;
+    margin: 5px;
+    color: #163f50;
+}
+
+#story-summary {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.photo {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #9cb9c5;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.photo p {
+    font-size: 16px;
+}
+
+.sequence-step {
+    font-weight: bold;
+    color: #2b667d;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 16px;
+    border: 2px solid #315f70;
+}
+
+#story-one {
+    background-color: #315f70;
+    color: white;
+}
+
+#story-two {
+    background-color: white;
+    color: #315f70;
+}
+
+.credits {
+    width: 70%;
+    margin: 45px auto 20px auto;
+    padding: 15px;
+    background-color: white;
+    border-top: 3px solid #4f8094;
+    font-size: 12px;
+}
+
+.credits h3 {
+    font-size: 16px;
+    margin: 5px;
+}
+
+.credits p {
+    margin: 7px;
+}
+
+.credits a {
+    color: #315f70;
+}
